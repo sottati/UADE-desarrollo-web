@@ -1,6 +1,7 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
 const { title } = Astro.props;
 ---
 
@@ -11,20 +12,11 @@ const { title } = Astro.props;
     <BaseHead title={title} description="Descripcion del sitio web" />
   </head>
   <body>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Posts</a>
-      <a href="#">Contact</a>
-    </nav>
-    <h1>{title}</h1>
-    <article>
+    <Header />
+    <main class="max-w-screen-lg">
       <slot />
       <!-- your content is injected here -->
-    </article>
+    </main>
     <Footer />
-  </body><style>
-    h1 {
-      font-size: 2rem;
-    }
-  </style>
+  </body>
 </html>

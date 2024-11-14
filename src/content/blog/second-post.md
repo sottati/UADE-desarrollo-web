@@ -2,10 +2,8 @@
 title: "Kelly Slater: Leyenda del Surf"
 description: "Una pequeña biografía sobre Kelly Slater, uno de los surfistas más grandes de todos los tiempos."
 pubDate: "2023-10-05"
-heroImage: "/public/blog-kelly-slater.webp"
+heroImage: "/blog-kelly-slater.webp"
 ---
-
-<!-- # Kelly Slater: Leyenda del Surf -->
 
 Kelly Slater es ampliamente considerado como uno de los mejores surfistas de todos los tiempos. Con una carrera que abarca más de tres décadas, Slater ha dejado una marca indeleble en el mundo del surf.
 

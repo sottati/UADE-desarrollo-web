@@ -2,10 +2,8 @@
 title: "El Torneo de la Triple Corona de Surf"
 description: "Todo lo que necesitas saber sobre el prestigioso torneo de la Triple Corona de Surf."
 pubDate: "2023-10-05"
-heroImage: "/public/blog-triple-crown.webp"
+heroImage: "/blog-triple-crown.webp"
 ---
-
-# El Torneo de la Triple Corona de Surf
 
 El torneo de la Triple Corona de Surf es uno de los eventos más prestigiosos en el mundo del surf. Celebrado anualmente en la costa norte de Oahu, Hawái, este torneo atrae a los mejores surfistas de todo el mundo.
 

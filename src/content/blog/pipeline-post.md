@@ -2,10 +2,8 @@
 title: "Las Mejores Playas para Surfear"
 description: "Descubre las mejores playas del mundo para surfear y planifica tu próxima aventura."
 pubDate: "2023-06-25"
-heroImage: "/public/blog-pipeline.webp"
+heroImage: "/blog-pipeline.webp"
 ---
-
-# Las Mejores Playas para Surfear
 
 Si eres un amante del surf, estas playas deben estar en tu lista de destinos. Desde olas perfectas hasta paisajes impresionantes, estas playas ofrecen todo lo que un surfista puede desear.
 

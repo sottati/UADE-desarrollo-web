@@ -4,7 +4,6 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
-// import { Image } from "astro:assets";
 
 type Props = CollectionEntry<"blog">["data"];
 
@@ -17,17 +16,17 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
   </head>
   <body>
     <Header />
-    <main class="w-[960px]">
-      <article class="flex flex-col">
-        <div class="date">
+    <main class="max-w-screen-lg">
+      <article class="flex flex-col w-full">
+        <div class="w-full">
           <img
-            class="aspect-video object-cover"
+            class="aspect-video object-cover w-full"
             transition:name={`portada-${title}`}
             src={heroImage}
             alt=""
           />
           <h1 transition:name={`title-${title}`}>{title}</h1>
-          <FormattedDate transition:name={`date-${pubDate}`} date={pubDate} />
+          <FormattedDate date={pubDate} />
           {
             updatedDate && (
               <div class="last-updated-on">
