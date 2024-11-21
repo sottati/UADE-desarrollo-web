@@ -19,6 +19,9 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
     <main class="max-w-screen-lg">
       <article class="flex flex-col w-full">
         <div class="w-full">
+          <a href="/blog" class="underline text-gray-400 hover:text-gray-300"
+            >Back to blog</a
+          >
           <img
             class="aspect-video object-cover w-full"
             transition:name={`portada-${title}`}

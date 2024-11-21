@@ -1,0 +1,142 @@
+---
+import Layout from "../layouts/layout.astro";
+---
+
+<Layout>
+  <section>
+    <div class="header">
+      <h1 class="titulo">Mi nombre es <span class="nombre">Simon</span></h1>
+      <h2>Bienvenido a mi pagina web</h2>
+      <p>Me gusta diseñar</p>
+      <p>
+        Me gusta el UI/UX y el maquetado de aplicaciones
+        <code class="">web</code>
+      </p>
+    </div>
+    <div
+      class="flex flex-row overflow-x-scroll space-x-4 snap-x snap-mandatory"
+      id="imagenes"
+    >
+      <img
+        class="snap-center w-auto h-48"
+        src="https://imgs.search.brave.com/y_TgXg6UFc790ceFcs5rg_-Q7zjpvbZpX1KwQNEiya4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YWR2ZW50dXJlc3Bv/cnRzbmV0d29yay5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTAvMTAva2VsbHkt/c2xhdGVyMDg5YTEu/anBn"
+        alt=""
+      />
+      <img
+        class="snap-center w-auto h-48"
+        src="https://imgs.search.brave.com/8bOckhoaMV2k4BAE8xfodZhjavtfy8KR8zO3PDmIZTs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y25ldC5jb20vYS9p/bWcvcmVzaXplL2Y5/YmI2OWYwNDg0NDYz/ZDZiOGY0NDA3ZWFj/ZWRkYTA1NmRiOGJl/YmEvaHViLzIwMTgv/MDkvMDYvMDQxYWI1/OTQtMmEwZC00YmM5/LWFmNDUtNDMzZGE0/NjdjNWNjL2tlbGx5/LTAxLmpwZz9hdXRv/PXdlYnAmd2lkdGg9/MTkyMA"
+        alt=""
+      />
+      <img
+        class="snap-center w-auto h-48"
+        src="https://imgs.search.brave.com/ds5ao0yXa5vyHr5WSUG5aivtyfk3PX6_uQ_MlLoxWCk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/YS50cmFuc2Zlcm1h/cmt0LnRlY2hub2xv/Z3kvcG9ydHJhaXQv/YmlnLzI4MDAzLTE3/MTAwODAzMzkuanBn/P2xtPTE"
+        alt=""
+      />
+      <img
+        class="snap-center w-auto h-48"
+        src="https://imgs.search.brave.com/Z1PPaQxBV8yqq5b9Wv7QtSetfCeAIYP7xr37MPMAJzY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zb3lk/ZWxyb2pvLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMC8w/Ni9Fc3RhZGlvLUxE/QS0zMDB4MjAwLmpw/Zw"
+        alt=""
+      />
+      <img
+        class="snap-center w-auto h-48"
+        src="https://imgs.search.brave.com/zVdX0UQ2d-PnZbpII9cAuabPZUBwd-hA9Cs3ZPNsCSg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2VzLmgtY2Ru/LmNvL2ZvdG9lcy9p/bWFnZXMvY2luZWZp/bGlhL3BlbGljdWxh/cy1wYXJhLXBlbnNh/ci9wZWxpY3VsYXNf/cGFyYV9wZW5zYXJf/aW50ZXJzdGVsbGFy/LzEzNzc4ODUzMi0x/LWVzbC1FUy9wZWxp/Y3VsYXNfcGFyYV9w/ZW5zYXJfaW50ZXJz/dGVsbGFyLmpwZz9j/cm9wPTF4dzoxLjB4/aDtjZW50ZXIsdG9w/JnJlc2l6ZT05ODA6/Kg"
+        alt=""
+      />
+    </div>
+    <table class="min-w-96 overflow-x-" id="tabla">
+      <thead>
+        <tr>
+          <th>Tier</th>
+          <th>Personaje</th>
+          <th>Descripcion</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="bg-green-400">
+          <td class="p-4">S</td>
+          <td class="p-4">
+            <img
+              src="https://imgs.search.brave.com/bNagZXwDZQczxTonYPPiiW2-BUWZXRziyPJWmpXGuBA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2UxLzg0/LzAwL2UxODQwMDUy/ZTNlMDY2MmJhNjli/Y2NmMWFiZGVhNDlh/LmpwZw"
+              alt="Gogeta"
+            />
+          </td>
+          <td class="p-4">
+            Gogeta es la fusión de Goku y Vegeta mediante la técnica de la Danza
+            de la Fusión. En su forma Super Saiyan Blue (SSJSS), Gogeta combina
+            el poder de Super Saiyan God con el Super Saiyan, alcanzando un
+            nivel de poder extraordinario. Es conocido por su increíble fuerza,
+            velocidad y habilidades de combate.
+          </td>
+        </tr>
+        <tr class="bg-lime-400">
+          <td class="p-4">A</td>
+          <td class="p-4">
+            <img
+              src="https://imgs.search.brave.com/DWSu3U6JyeVUkYtAvQTUi1wc3Xx-_fhtcVlO_9lchRw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kZXBv/ci5jb20vcmVzaXpl/ci83cElBaWNrLUdB/TXV6Y3pPNnZZenIt/U2U4dW89LzU4MHgz/MzAvc21hcnQvZmls/dGVyczpmb3JtYXQo/anBlZyk6cXVhbGl0/eSg5MCkvY2xvdWRm/cm9udC11cy1lYXN0/LTEuaW1hZ2VzLmFy/Y3B1Ymxpc2hpbmcu/Y29tL2VsY29tZXJj/aW8vWFlSVldZNzUz/VkdCWkpBNkZGWElB/SkJIRjQuanBn"
+              alt=""
+            />
+          </td>
+          <td class="p-4">
+            Toppo es un guerrero del Universo 11 y líder de las Tropas del
+            Orgullo. En el Torneo de Poder, revela su capacidad para
+            transformarse en un Dios de la Destrucción, obteniendo un poder
+            inmenso y la capacidad de usar la energía de destrucción. Es un
+            luchador justo y honorable.
+          </td>
+        </tr>
+        <tr class="bg-yellow-400">
+          <td class="p-4">B</td>
+          <td class="p-4">
+            <img
+              src="https://imgs.search.brave.com/NfxZX77OnukWODz8rAb0AcufIFO6FwcPz9a6krBrgws/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMxLmNicmltYWdl/cy5jb20vd29yZHBy/ZXNzL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE4LzA1L0RyYWdv/bi1CYWxsLVN1cGVy/LUhpdC5qcGc"
+              alt=""
+            />
+          </td>
+          <td class="p-4">
+            Hit es un asesino legendario del Universo 6, conocido por su
+            habilidad para manipular el tiempo con su técnica "Salto en el
+            Tiempo". Es un luchador extremadamente hábil y experimentado, capaz
+            de adaptarse rápidamente a sus oponentes.
+          </td>
+        </tr>
+        <tr class="bg-amber-400">
+          <td class="p-4">C</td>
+          <td class="p-4">
+            <img
+              src="https://imgs.search.brave.com/c2GDTBIEINZLH1p1klwp1cCD1rSqzFpmQnS3kTMsjvA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bXVuZG9kZXBvcnRp/dm8uY29tL2FsZmFi/ZXRhL2hlcm8vMjAy/MC8xMC9NYWppbi1C/dXUuanBnP3dpZHRo/PTc2OCZhc3BlY3Rf/cmF0aW89MTY6OSZm/b3JtYXQ9bm93ZWJw"
+              alt=""
+            />
+          </td>
+          <td class="p-4">
+            Majin Buu es una entidad mágica creada por el mago Bibidi. Tiene
+            múltiples formas, cada una con diferentes niveles de poder y
+            personalidad. Es conocido por su capacidad de regeneración,
+            absorción de enemigos y su naturaleza impredecible. A pesar de su
+            apariencia infantil, es uno de los seres más poderosos del universo.
+          </td>
+        </tr>
+        <tr class="bg-red-400">
+          <td class="p-4">D</td>
+          <td class="p-4">
+            <img
+              src="https://imgs.search.brave.com/rlaVCCEf9VOpbAJbLqClHxxmCQTLIICTciprwP0J2zY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/c2hvcGlmeS5jb20v/cy9maWxlcy8xLzIz/NjUvMjQ3Ny9maWxl/cy8wM19mNDMwMDBl/My1mYzE2LTQ3M2Ut/YTk4OC01ZGExMzRm/ZDg1YWEuanBnP3Y9/MTU5MjY4OTAzNA"
+              alt=""
+            />
+          </td>
+          <td class="p-4">
+            Yajirobe es un espadachín terrícola conocido por su valentía y su
+            habilidad con la espada. Aunque no es tan poderoso como los
+            Saiyajin, ha jugado roles cruciales en varias batallas, como cuando
+            cortó la cola de Vegeta en su forma de Ozaru. Es también conocido
+            por su amor por la comida y su pereza.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="fixed right-6 bottom-6 bg-red-300 p-4 text-center rounded z-200 cursor-pointer transition-all"
+    >
+      <button>Boton Estatico</button>
+    </div>
+  </section>
+</Layout>
